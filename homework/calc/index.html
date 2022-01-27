@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="calc.js"></script>
+</head>
+<body>
+    <input type="text" id="input1">
+    <br> <br>
+    <input type="text" id="input2">
+    <br> <br>
+    <button onclick = "plus()">+</button>
+    <br> <br>
+    <div ></div>
+
+    <script>
+       function plus () {
+           const result = document.querySelector("div")
+           const first = document.querySelector("#input1")
+           const second = document.querySelector("#input2")
+           
+           result = Number(first.value) + Number(second.value)
+            
+       }
+    </script>
+</body>
+</html>
