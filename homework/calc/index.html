@@ -12,19 +12,10 @@
     <br> <br>
     <input type="text" id="input2">
     <br> <br>
-    <button onclick = "plus()">+</button>
+    <button id="plusbutton" onclick = "sum()">+</button>
     <br> <br>
-    <div ></div>
+    <div></div>
 
-    <script>
-       function plus () {
-           const result = document.querySelector("div")
-           const first = document.querySelector("#input1")
-           const second = document.querySelector("#input2")
-           
-           result = Number(first.value) + Number(second.value)
-            
-       }
-    </script>
+    
 </body>
 </html>
