@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.cities{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+
+}
+.cities a {
+    width: 450px;
+    height: 350px;
+    background-color: rgb(52, 136, 204);
+    text-align: center;
+    margin: 20px;
+    font-size: 24px;
+    color:rgb(255, 255, 255);
+}
+body{
+    background-color: rgb(178, 116, 236);
+}
+
